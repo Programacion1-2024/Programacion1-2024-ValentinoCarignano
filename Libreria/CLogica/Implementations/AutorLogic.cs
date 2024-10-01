@@ -1,14 +1,6 @@
-﻿using CDatos.Repositories;
-using CDatos.Repositories.Contracts;
+﻿using CDatos.Repositories.Contracts;
 using CEntidades.Entidades;
 using CLogica.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CLogica.Implementations
 {

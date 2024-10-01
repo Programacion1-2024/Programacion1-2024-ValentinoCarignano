@@ -17,7 +17,7 @@ namespace CLogica
             {
                 return true;
             }
-            else if (string.IsNullOrWhiteSpace(documento) || documento.Length < 8)
+            else if (string.IsNullOrWhiteSpace(documento) || documento.Length > 8)
             {
                 return false;
             }
