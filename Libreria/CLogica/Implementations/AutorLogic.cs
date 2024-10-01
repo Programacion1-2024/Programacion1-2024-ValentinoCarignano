@@ -28,6 +28,12 @@ namespace CLogica.Implementations
             return _autorRepository.FindAll().ToList();
         }
 
+        public Autor? ObtenerAutorPorID(string idAutor)
+        {
+            return _autorRepository.FindByCondition(a => a.IdAutor == Int32.Parse(idAutor)).FirstOrDefault();
+        }
+
+
         public List<dynamic> ObtenerAutoresParaListado()
         {
             return _autorRepository.ObtenerAutores().Select(a => new { IdAutor = a.IdAutor, Nombre = a.PersonaAutor.Nombre, Apellido = a.PersonaAutor.Apellido, FechaNacimiento = a.FechaNacimiento, Nacionalidad = a.PersonaAutor.Nacionalidad, Telefono = a.PersonaAutor.Telefono, Email = a.PersonaAutor.Email, Biografia = a.Biografia }).ToList<dynamic>();
@@ -84,6 +90,7 @@ namespace CLogica.Implementations
             }
 
             Autor? autorEliminar = new Autor();
+            
             if (Int32.TryParse(id, out  int idAutor))
             {
                 autorEliminar = _autorRepository.FindByCondition(p => p.IdAutor == idAutor).FirstOrDefault();
@@ -91,9 +98,7 @@ namespace CLogica.Implementations
                 if (autorEliminar == null)
                 {
                     throw new InvalidOperationException("La persona que se desea eliminar no existe.");
-                }
-                
-                _personaLogic.BajaPersona(autorEliminar.PersonaAutor.IdPersona.ToString());
+                }  
             }
             else
             {
@@ -101,10 +106,10 @@ namespace CLogica.Implementations
 
             }
 
-
-
             _autorRepository.Delete(autorEliminar);
             _autorRepository.Save();
+
+            _personaLogic.BajaPersona(autorEliminar.PersonaAutor.IdPersona.ToString());
         }
 
         public void ActualizacionAutor(string idAutor, string nombre, string apellido, string nacionalidad, string email, string fechaNacimiento, string telefono, string biografia)

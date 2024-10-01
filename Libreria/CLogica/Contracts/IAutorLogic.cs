@@ -13,6 +13,7 @@ namespace CLogica.Contracts
         void BajaAutor(string documento);
         void ActualizacionAutor(string idAutor, string nombre, string apellido, string nacionalidad, string email, string fechaNacimiento, string telefono, string biografia);
         List<Autor> ObtenerAutores();
+        Autor? ObtenerAutorPorID(string idAutor);
         List<dynamic> ObtenerAutoresParaListado();
     }
 }
