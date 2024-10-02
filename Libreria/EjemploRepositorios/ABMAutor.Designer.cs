@@ -85,16 +85,18 @@
             // tabModificacion
             // 
             tabModificacion.Controls.Add(panelModificacion);
-            tabModificacion.Location = new Point(4, 24);
+            tabModificacion.Location = new Point(4, 29);
+            tabModificacion.Margin = new Padding(3, 4, 3, 4);
             tabModificacion.Name = "tabModificacion";
-            tabModificacion.Padding = new Padding(3);
-            tabModificacion.Size = new Size(859, 458);
+            tabModificacion.Padding = new Padding(3, 4, 3, 4);
+            tabModificacion.Size = new Size(983, 615);
             tabModificacion.TabIndex = 2;
             tabModificacion.Text = "Modificacion";
             tabModificacion.UseVisualStyleBackColor = true;
             // 
             // panelModificacion
             // 
+            panelModificacion.Anchor = AnchorStyles.None;
             panelModificacion.Controls.Add(tbIdAutorModificacion);
             panelModificacion.Controls.Add(tbBiografiaModificacion);
             panelModificacion.Controls.Add(tbFechaNacimientoModificacion);
@@ -112,128 +114,138 @@
             panelModificacion.Controls.Add(btnActualizar);
             panelModificacion.Controls.Add(lbIdAutorModificacion);
             panelModificacion.Controls.Add(lbFechaNacimientoModificacion);
-            panelModificacion.Location = new Point(136, 11);
+            panelModificacion.Location = new Point(155, 15);
+            panelModificacion.Margin = new Padding(3, 4, 3, 4);
             panelModificacion.Name = "panelModificacion";
-            panelModificacion.Size = new Size(576, 396);
+            panelModificacion.Size = new Size(658, 528);
             panelModificacion.TabIndex = 28;
             // 
             // tbIdAutorModificacion
             // 
-            tbIdAutorModificacion.Location = new Point(260, 16);
+            tbIdAutorModificacion.Location = new Point(297, 21);
+            tbIdAutorModificacion.Margin = new Padding(3, 4, 3, 4);
             tbIdAutorModificacion.Name = "tbIdAutorModificacion";
             tbIdAutorModificacion.ReadOnly = true;
-            tbIdAutorModificacion.Size = new Size(158, 23);
+            tbIdAutorModificacion.Size = new Size(180, 27);
             tbIdAutorModificacion.TabIndex = 28;
             // 
             // tbBiografiaModificacion
             // 
-            tbBiografiaModificacion.Location = new Point(111, 209);
+            tbBiografiaModificacion.Location = new Point(127, 279);
+            tbBiografiaModificacion.Margin = new Padding(3, 4, 3, 4);
             tbBiografiaModificacion.Multiline = true;
             tbBiografiaModificacion.Name = "tbBiografiaModificacion";
-            tbBiografiaModificacion.Size = new Size(435, 127);
+            tbBiografiaModificacion.Size = new Size(497, 168);
             tbBiografiaModificacion.TabIndex = 35;
             // 
             // tbFechaNacimientoModificacion
             // 
-            tbFechaNacimientoModificacion.Location = new Point(388, 100);
+            tbFechaNacimientoModificacion.Location = new Point(443, 133);
+            tbFechaNacimientoModificacion.Margin = new Padding(3, 4, 3, 4);
             tbFechaNacimientoModificacion.Name = "tbFechaNacimientoModificacion";
-            tbFechaNacimientoModificacion.Size = new Size(158, 23);
+            tbFechaNacimientoModificacion.Size = new Size(180, 27);
             tbFechaNacimientoModificacion.TabIndex = 32;
             // 
             // bvNombreModificacion
             // 
             bvNombreModificacion.AutoSize = true;
-            bvNombreModificacion.Location = new Point(20, 54);
+            bvNombreModificacion.Location = new Point(23, 72);
             bvNombreModificacion.Name = "bvNombreModificacion";
-            bvNombreModificacion.Size = new Size(51, 15);
+            bvNombreModificacion.Size = new Size(64, 20);
             bvNombreModificacion.TabIndex = 37;
             bvNombreModificacion.Text = "Nombre";
             // 
             // lbApellidoModificacion
             // 
             lbApellidoModificacion.AutoSize = true;
-            lbApellidoModificacion.Location = new Point(325, 56);
+            lbApellidoModificacion.Location = new Point(371, 75);
             lbApellidoModificacion.Name = "lbApellidoModificacion";
-            lbApellidoModificacion.Size = new Size(51, 15);
+            lbApellidoModificacion.Size = new Size(66, 20);
             lbApellidoModificacion.TabIndex = 38;
             lbApellidoModificacion.Text = "Apellido";
             // 
             // tbEmailModificacion
             // 
-            tbEmailModificacion.Location = new Point(111, 147);
+            tbEmailModificacion.Location = new Point(127, 196);
+            tbEmailModificacion.Margin = new Padding(3, 4, 3, 4);
             tbEmailModificacion.Name = "tbEmailModificacion";
-            tbEmailModificacion.Size = new Size(158, 23);
+            tbEmailModificacion.Size = new Size(180, 27);
             tbEmailModificacion.TabIndex = 33;
             // 
             // lbTelefonoModificacion
             // 
             lbTelefonoModificacion.AutoSize = true;
-            lbTelefonoModificacion.Location = new Point(324, 150);
+            lbTelefonoModificacion.Location = new Point(370, 200);
             lbTelefonoModificacion.Name = "lbTelefonoModificacion";
-            lbTelefonoModificacion.Size = new Size(52, 15);
+            lbTelefonoModificacion.Size = new Size(67, 20);
             lbTelefonoModificacion.TabIndex = 39;
             lbTelefonoModificacion.Text = "Telefono";
             // 
             // tbNacionalidadModificacion
             // 
-            tbNacionalidadModificacion.Location = new Point(111, 100);
+            tbNacionalidadModificacion.Location = new Point(127, 133);
+            tbNacionalidadModificacion.Margin = new Padding(3, 4, 3, 4);
             tbNacionalidadModificacion.Name = "tbNacionalidadModificacion";
-            tbNacionalidadModificacion.Size = new Size(158, 23);
+            tbNacionalidadModificacion.Size = new Size(180, 27);
             tbNacionalidadModificacion.TabIndex = 31;
             // 
             // lbNacionalidadModificacion
             // 
             lbNacionalidadModificacion.AutoSize = true;
-            lbNacionalidadModificacion.Location = new Point(20, 103);
+            lbNacionalidadModificacion.Location = new Point(23, 137);
             lbNacionalidadModificacion.Name = "lbNacionalidadModificacion";
-            lbNacionalidadModificacion.Size = new Size(77, 15);
+            lbNacionalidadModificacion.Size = new Size(98, 20);
             lbNacionalidadModificacion.TabIndex = 40;
             lbNacionalidadModificacion.Text = "Nacionalidad";
             // 
             // tbTelefonoModificacion
             // 
-            tbTelefonoModificacion.Location = new Point(388, 147);
+            tbTelefonoModificacion.Location = new Point(443, 196);
+            tbTelefonoModificacion.Margin = new Padding(3, 4, 3, 4);
             tbTelefonoModificacion.Name = "tbTelefonoModificacion";
-            tbTelefonoModificacion.Size = new Size(158, 23);
+            tbTelefonoModificacion.Size = new Size(180, 27);
             tbTelefonoModificacion.TabIndex = 34;
             // 
             // lbEmailModificacion
             // 
             lbEmailModificacion.AutoSize = true;
-            lbEmailModificacion.Location = new Point(20, 150);
+            lbEmailModificacion.Location = new Point(23, 200);
             lbEmailModificacion.Name = "lbEmailModificacion";
-            lbEmailModificacion.Size = new Size(36, 15);
+            lbEmailModificacion.Size = new Size(46, 20);
             lbEmailModificacion.TabIndex = 41;
             lbEmailModificacion.Text = "Email";
             // 
             // tbApellidoModificacion
             // 
-            tbApellidoModificacion.Location = new Point(388, 54);
+            tbApellidoModificacion.Location = new Point(443, 72);
+            tbApellidoModificacion.Margin = new Padding(3, 4, 3, 4);
             tbApellidoModificacion.Name = "tbApellidoModificacion";
-            tbApellidoModificacion.Size = new Size(158, 23);
+            tbApellidoModificacion.Size = new Size(180, 27);
             tbApellidoModificacion.TabIndex = 30;
             // 
             // lbBiografiaModificacion
             // 
             lbBiografiaModificacion.AutoSize = true;
-            lbBiografiaModificacion.Location = new Point(20, 212);
+            lbBiografiaModificacion.Location = new Point(23, 283);
             lbBiografiaModificacion.Name = "lbBiografiaModificacion";
-            lbBiografiaModificacion.Size = new Size(54, 15);
+            lbBiografiaModificacion.Size = new Size(70, 20);
             lbBiografiaModificacion.TabIndex = 42;
             lbBiografiaModificacion.Text = "Biografia";
             // 
             // tbNombreModificacion
             // 
-            tbNombreModificacion.Location = new Point(111, 54);
+            tbNombreModificacion.Location = new Point(127, 72);
+            tbNombreModificacion.Margin = new Padding(3, 4, 3, 4);
             tbNombreModificacion.Name = "tbNombreModificacion";
-            tbNombreModificacion.Size = new Size(158, 23);
+            tbNombreModificacion.Size = new Size(180, 27);
             tbNombreModificacion.TabIndex = 29;
             // 
             // btnActualizar
             // 
-            btnActualizar.Location = new Point(297, 362);
+            btnActualizar.Location = new Point(339, 483);
+            btnActualizar.Margin = new Padding(3, 4, 3, 4);
             btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(75, 23);
+            btnActualizar.Size = new Size(86, 31);
             btnActualizar.TabIndex = 36;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = true;
@@ -242,35 +254,36 @@
             // lbIdAutorModificacion
             // 
             lbIdAutorModificacion.AutoSize = true;
-            lbIdAutorModificacion.Location = new Point(198, 18);
+            lbIdAutorModificacion.Location = new Point(226, 24);
             lbIdAutorModificacion.Name = "lbIdAutorModificacion";
-            lbIdAutorModificacion.Size = new Size(51, 15);
+            lbIdAutorModificacion.Size = new Size(65, 20);
             lbIdAutorModificacion.TabIndex = 44;
             lbIdAutorModificacion.Text = "ID Autor";
             // 
             // lbFechaNacimientoModificacion
             // 
             lbFechaNacimientoModificacion.AutoSize = true;
-            lbFechaNacimientoModificacion.Location = new Point(275, 103);
+            lbFechaNacimientoModificacion.Location = new Point(314, 137);
             lbFechaNacimientoModificacion.Name = "lbFechaNacimientoModificacion";
-            lbFechaNacimientoModificacion.Size = new Size(103, 15);
+            lbFechaNacimientoModificacion.Size = new Size(128, 20);
             lbFechaNacimientoModificacion.TabIndex = 43;
             lbFechaNacimientoModificacion.Text = "Fecha Nacimiento";
             // 
             // tabAlta
             // 
             tabAlta.Controls.Add(panelAlta);
-            tabAlta.Location = new Point(4, 24);
+            tabAlta.Location = new Point(4, 29);
+            tabAlta.Margin = new Padding(3, 4, 3, 4);
             tabAlta.Name = "tabAlta";
-            tabAlta.Padding = new Padding(3);
-            tabAlta.Size = new Size(859, 458);
+            tabAlta.Padding = new Padding(3, 4, 3, 4);
+            tabAlta.Size = new Size(983, 615);
             tabAlta.TabIndex = 1;
             tabAlta.Text = "Alta";
             tabAlta.UseVisualStyleBackColor = true;
             // 
             // panelAlta
             // 
-            panelAlta.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panelAlta.Anchor = AnchorStyles.None;
             panelAlta.Controls.Add(lbFechaNacimientoAlta);
             panelAlta.Controls.Add(tbNombreAlta);
             panelAlta.Controls.Add(tbFechaNacimientoAlta);
@@ -286,129 +299,138 @@
             panelAlta.Controls.Add(tbApellidoAlta);
             panelAlta.Controls.Add(lbBiografiaAlta);
             panelAlta.Controls.Add(btnGuardar);
-            panelAlta.Location = new Point(147, 50);
+            panelAlta.Location = new Point(168, 67);
+            panelAlta.Margin = new Padding(3, 4, 3, 4);
             panelAlta.Name = "panelAlta";
-            panelAlta.Size = new Size(560, 356);
+            panelAlta.Size = new Size(640, 475);
             panelAlta.TabIndex = 12;
             // 
             // lbFechaNacimientoAlta
             // 
             lbFechaNacimientoAlta.AutoSize = true;
-            lbFechaNacimientoAlta.Location = new Point(264, 64);
+            lbFechaNacimientoAlta.Location = new Point(302, 85);
             lbFechaNacimientoAlta.Name = "lbFechaNacimientoAlta";
-            lbFechaNacimientoAlta.Size = new Size(103, 15);
+            lbFechaNacimientoAlta.Size = new Size(128, 20);
             lbFechaNacimientoAlta.TabIndex = 26;
             lbFechaNacimientoAlta.Text = "Fecha Nacimiento";
             // 
             // tbNombreAlta
             // 
-            tbNombreAlta.Location = new Point(100, 15);
+            tbNombreAlta.Location = new Point(114, 20);
+            tbNombreAlta.Margin = new Padding(3, 4, 3, 4);
             tbNombreAlta.Name = "tbNombreAlta";
-            tbNombreAlta.Size = new Size(158, 23);
+            tbNombreAlta.Size = new Size(180, 27);
             tbNombreAlta.TabIndex = 12;
             // 
             // tbFechaNacimientoAlta
             // 
-            tbFechaNacimientoAlta.Location = new Point(377, 61);
+            tbFechaNacimientoAlta.Location = new Point(431, 81);
+            tbFechaNacimientoAlta.Margin = new Padding(3, 4, 3, 4);
             tbFechaNacimientoAlta.Name = "tbFechaNacimientoAlta";
-            tbFechaNacimientoAlta.Size = new Size(158, 23);
+            tbFechaNacimientoAlta.Size = new Size(180, 27);
             tbFechaNacimientoAlta.TabIndex = 16;
             // 
             // lblNombreAlta
             // 
             lblNombreAlta.AutoSize = true;
-            lblNombreAlta.Location = new Point(9, 15);
+            lblNombreAlta.Location = new Point(10, 20);
             lblNombreAlta.Name = "lblNombreAlta";
-            lblNombreAlta.Size = new Size(51, 15);
+            lblNombreAlta.Size = new Size(64, 20);
             lblNombreAlta.TabIndex = 14;
             lblNombreAlta.Text = "Nombre";
             // 
             // tbBiografiaAlta
             // 
-            tbBiografiaAlta.Location = new Point(100, 170);
+            tbBiografiaAlta.Location = new Point(114, 227);
+            tbBiografiaAlta.Margin = new Padding(3, 4, 3, 4);
             tbBiografiaAlta.Multiline = true;
             tbBiografiaAlta.Name = "tbBiografiaAlta";
-            tbBiografiaAlta.Size = new Size(435, 127);
+            tbBiografiaAlta.Size = new Size(497, 168);
             tbBiografiaAlta.TabIndex = 21;
             // 
             // lbApellidoAlta
             // 
             lbApellidoAlta.AutoSize = true;
-            lbApellidoAlta.Location = new Point(314, 17);
+            lbApellidoAlta.Location = new Point(359, 23);
             lbApellidoAlta.Name = "lbApellidoAlta";
-            lbApellidoAlta.Size = new Size(51, 15);
+            lbApellidoAlta.Size = new Size(66, 20);
             lbApellidoAlta.TabIndex = 17;
             lbApellidoAlta.Text = "Apellido";
             // 
             // tbEmailAlta
             // 
-            tbEmailAlta.Location = new Point(100, 108);
+            tbEmailAlta.Location = new Point(114, 144);
+            tbEmailAlta.Margin = new Padding(3, 4, 3, 4);
             tbEmailAlta.Name = "tbEmailAlta";
-            tbEmailAlta.Size = new Size(158, 23);
+            tbEmailAlta.Size = new Size(180, 27);
             tbEmailAlta.TabIndex = 18;
             // 
             // lbTelefonoAlta
             // 
             lbTelefonoAlta.AutoSize = true;
-            lbTelefonoAlta.Location = new Point(313, 111);
+            lbTelefonoAlta.Location = new Point(358, 148);
             lbTelefonoAlta.Name = "lbTelefonoAlta";
-            lbTelefonoAlta.Size = new Size(52, 15);
+            lbTelefonoAlta.Size = new Size(67, 20);
             lbTelefonoAlta.TabIndex = 20;
             lbTelefonoAlta.Text = "Telefono";
             // 
             // tbNacionalidadAlta
             // 
-            tbNacionalidadAlta.Location = new Point(100, 61);
+            tbNacionalidadAlta.Location = new Point(114, 81);
+            tbNacionalidadAlta.Margin = new Padding(3, 4, 3, 4);
             tbNacionalidadAlta.Name = "tbNacionalidadAlta";
-            tbNacionalidadAlta.Size = new Size(158, 23);
+            tbNacionalidadAlta.Size = new Size(180, 27);
             tbNacionalidadAlta.TabIndex = 15;
             // 
             // lbNacionalidadAlta
             // 
             lbNacionalidadAlta.AutoSize = true;
-            lbNacionalidadAlta.Location = new Point(9, 64);
+            lbNacionalidadAlta.Location = new Point(10, 85);
             lbNacionalidadAlta.Name = "lbNacionalidadAlta";
-            lbNacionalidadAlta.Size = new Size(77, 15);
+            lbNacionalidadAlta.Size = new Size(98, 20);
             lbNacionalidadAlta.TabIndex = 23;
             lbNacionalidadAlta.Text = "Nacionalidad";
             // 
             // tbTelefonoAlta
             // 
-            tbTelefonoAlta.Location = new Point(377, 108);
+            tbTelefonoAlta.Location = new Point(431, 144);
+            tbTelefonoAlta.Margin = new Padding(3, 4, 3, 4);
             tbTelefonoAlta.Name = "tbTelefonoAlta";
-            tbTelefonoAlta.Size = new Size(158, 23);
+            tbTelefonoAlta.Size = new Size(180, 27);
             tbTelefonoAlta.TabIndex = 19;
             // 
             // lbEmailAlta
             // 
             lbEmailAlta.AutoSize = true;
-            lbEmailAlta.Location = new Point(9, 111);
+            lbEmailAlta.Location = new Point(10, 148);
             lbEmailAlta.Name = "lbEmailAlta";
-            lbEmailAlta.Size = new Size(36, 15);
+            lbEmailAlta.Size = new Size(46, 20);
             lbEmailAlta.TabIndex = 24;
             lbEmailAlta.Text = "Email";
             // 
             // tbApellidoAlta
             // 
-            tbApellidoAlta.Location = new Point(377, 15);
+            tbApellidoAlta.Location = new Point(431, 20);
+            tbApellidoAlta.Margin = new Padding(3, 4, 3, 4);
             tbApellidoAlta.Name = "tbApellidoAlta";
-            tbApellidoAlta.Size = new Size(158, 23);
+            tbApellidoAlta.Size = new Size(180, 27);
             tbApellidoAlta.TabIndex = 13;
             // 
             // lbBiografiaAlta
             // 
             lbBiografiaAlta.AutoSize = true;
-            lbBiografiaAlta.Location = new Point(9, 173);
+            lbBiografiaAlta.Location = new Point(10, 231);
             lbBiografiaAlta.Name = "lbBiografiaAlta";
-            lbBiografiaAlta.Size = new Size(54, 15);
+            lbBiografiaAlta.Size = new Size(70, 20);
             lbBiografiaAlta.TabIndex = 25;
             lbBiografiaAlta.Text = "Biografia";
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(286, 323);
+            btnGuardar.Location = new Point(327, 431);
+            btnGuardar.Margin = new Padding(3, 4, 3, 4);
             btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(75, 23);
+            btnGuardar.Size = new Size(86, 31);
             btnGuardar.TabIndex = 22;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
@@ -418,10 +440,11 @@
             // 
             tabListado.Controls.Add(bnRecargarAlta);
             tabListado.Controls.Add(dgvListadoAutores);
-            tabListado.Location = new Point(4, 24);
+            tabListado.Location = new Point(4, 29);
+            tabListado.Margin = new Padding(3, 4, 3, 4);
             tabListado.Name = "tabListado";
-            tabListado.Padding = new Padding(3);
-            tabListado.Size = new Size(859, 458);
+            tabListado.Padding = new Padding(3, 4, 3, 4);
+            tabListado.Size = new Size(983, 615);
             tabListado.TabIndex = 0;
             tabListado.Text = "Listado";
             tabListado.UseVisualStyleBackColor = true;
@@ -429,10 +452,9 @@
             // bnRecargarAlta
             // 
             bnRecargarAlta.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            bnRecargarAlta.Location = new Point(771, 433);
-            bnRecargarAlta.Margin = new Padding(3, 2, 3, 2);
+            bnRecargarAlta.Location = new Point(881, 577);
             bnRecargarAlta.Name = "bnRecargarAlta";
-            bnRecargarAlta.Size = new Size(82, 24);
+            bnRecargarAlta.Size = new Size(94, 32);
             bnRecargarAlta.TabIndex = 1;
             bnRecargarAlta.Text = "Recargar";
             bnRecargarAlta.UseVisualStyleBackColor = true;
@@ -443,10 +465,11 @@
             dgvListadoAutores.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dgvListadoAutores.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvListadoAutores.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListadoAutores.Location = new Point(3, 3);
+            dgvListadoAutores.Location = new Point(3, 4);
+            dgvListadoAutores.Margin = new Padding(3, 4, 3, 4);
             dgvListadoAutores.Name = "dgvListadoAutores";
             dgvListadoAutores.RowHeadersWidth = 51;
-            dgvListadoAutores.Size = new Size(850, 425);
+            dgvListadoAutores.Size = new Size(971, 567);
             dgvListadoAutores.TabIndex = 0;
             dgvListadoAutores.CellContentClick += dgvListadoAutores_CellClick;
             // 
@@ -456,20 +479,22 @@
             tabControlPrincipal.Controls.Add(tabListado);
             tabControlPrincipal.Controls.Add(tabAlta);
             tabControlPrincipal.Controls.Add(tabModificacion);
-            tabControlPrincipal.Location = new Point(12, 12);
+            tabControlPrincipal.Location = new Point(14, 16);
+            tabControlPrincipal.Margin = new Padding(3, 4, 3, 4);
             tabControlPrincipal.Name = "tabControlPrincipal";
             tabControlPrincipal.SelectedIndex = 0;
-            tabControlPrincipal.Size = new Size(867, 486);
+            tabControlPrincipal.Size = new Size(991, 648);
             tabControlPrincipal.TabIndex = 0;
             tabControlPrincipal.SelectedIndexChanged += tabControlPrincipal_SelectedIndexChanged;
             tabControlPrincipal.Selecting += tabControlPrincipal_Selecting;
             // 
             // ABMAutor
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(891, 510);
+            ClientSize = new Size(1018, 680);
             Controls.Add(tabControlPrincipal);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ABMAutor";
             Text = "Sistema de Gestion de Libreria";
             Load += ABMAutor_Load;

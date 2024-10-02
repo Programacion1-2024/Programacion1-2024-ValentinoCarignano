@@ -27,6 +27,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="ABMGenero.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ABMCliente.cs">
       <SubType>Form</SubType>
     </Compile>

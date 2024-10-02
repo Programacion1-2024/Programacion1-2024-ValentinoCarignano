@@ -61,6 +61,35 @@ namespace CLogica
 
             return true;
         }
+        public static bool TextoEsValido(string texto)
+        {
+            if (string.IsNullOrWhiteSpace(texto))
+            {
+                return false;
+            }
+
+            texto = texto.Trim();
+
+            if (texto.Contains("  "))
+            {
+                return false;
+            }
+
+            if (texto.Length < 3 || texto.Length > 20)
+            {
+                return false;
+            }
+
+            foreach (char c in texto)
+            {
+                if (!char.IsLetter(c) && !char.IsWhiteSpace(c))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
         public static bool TelefonoEsValido(string telefono)
         {
             if (string.IsNullOrEmpty(telefono))
