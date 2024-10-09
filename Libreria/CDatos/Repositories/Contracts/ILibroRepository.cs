@@ -9,5 +9,6 @@ namespace CDatos.Repositories.Contracts
 {
     public interface ILibroRepository : IRepository<Libro>
     {
+        List<Libro> ObtenerLibros();
     }
 }

@@ -1,6 +1,7 @@
 ﻿using CDatos.Contexts;
 using CDatos.Repositories.Contracts;
 using CEntidades.Entidades;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,12 @@ namespace CDatos.Repositories
     {
         public LibroRepository(LibreriaContext context) : base(context)
         {
+
+        }
+        public List<Libro> ObtenerLibros()
+        {
+            return _context.Libro.Include(a => a.IdLibro).ToList();
         }
     }
 }
+
