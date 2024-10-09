@@ -29,7 +29,7 @@ namespace EjemploRepositorios
             var host = CreateHostBuilder().Build();
             _serviceProvider = host.Services;
 
-            Application.Run(_serviceProvider.GetRequiredService<ABMGenero>());
+            Application.Run(_serviceProvider.GetRequiredService<ABMLibro>());
         }
 
         static IHostBuilder CreateHostBuilder()
