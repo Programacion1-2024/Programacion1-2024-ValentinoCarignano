@@ -80,7 +80,7 @@ namespace CLogica.Implementations
 
                 generoActualizar.Descripcion = descripcion;
 
-                _generoRepository.Create(generoActualizar);
+                _generoRepository.Update(generoActualizar);
                 _generoRepository.Save();
             }
             catch

@@ -117,6 +117,8 @@ namespace CPresentacion
 
                 tbIdGeneroModificacion.Clear();
                 tbDescripcionModificacion.Clear();
+
+                tabControlPrincipal.SelectedTab = tabListado;
             }
             catch (Exception ex)
             {

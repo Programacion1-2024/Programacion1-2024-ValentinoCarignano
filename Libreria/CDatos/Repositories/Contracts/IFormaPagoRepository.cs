@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 
 namespace CDatos.Repositories.Contracts
 {
-    public interface IAutorRepository : IRepository<Autor>
+    public interface IFormaPagoRepository : IRepository<FormaPago>
     {
-        void CreateAutor(Autor autor);
-        List<Autor> ObtenerAutores();
     }
 }

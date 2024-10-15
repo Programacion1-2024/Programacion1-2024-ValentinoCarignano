@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CDatos.Repositories.Contracts
 {
-    public interface IAutorRepository : IRepository<Autor>
+    public interface IEmpleadoRepository : IRepository<Empleado>
     {
-        void CreateAutor(Autor autor);
-        List<Autor> ObtenerAutores();
+        public void CreateEmpleado(Empleado empleado);
+        public List<Empleado> ObtenerEmpleados();
     }
 }

@@ -10,7 +10,7 @@ namespace CEntidades.Entidades
     {
         public int IdEmpleado { get; set; }
 
-        public DateTime Antiguedad { get; set; }
+        public DateTime? Antiguedad { get; set; }
         public string Cargo { get; set; }
         public double Sueldo { get; set; }
 
