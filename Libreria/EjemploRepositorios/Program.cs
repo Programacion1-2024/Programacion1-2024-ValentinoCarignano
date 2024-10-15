@@ -38,7 +38,7 @@ namespace EjemploRepositorios
                 .ConfigureServices((context, services) => {
 
                     services.AddTransient<IAutorLogic, AutorLogic>();
-                    //services.AddTransient<IEmpleadoLogic, EmpleadoLogic>();
+                    services.AddTransient<IEmpleadoLogic, EmpleadoLogic>();
                     services.AddTransient<IPersonaLogic, PersonaLogic>();
                     services.AddTransient<ILibroLogic, LibroLogic>();
                     services.AddTransient<IClienteLogic, ClienteLogic>();
@@ -48,7 +48,7 @@ namespace EjemploRepositorios
 
 
                     services.AddTransient<IAutorRepository, AutorRepository>();
-                    //services.AddTransient<IEmpleadoRepository, EmpleadoRepository>();
+                    services.AddTransient<IEmpleadoRepository, EmpleadoRepository>();
                     services.AddTransient<IPersonaRepository, PersonaRepository>();
                     services.AddTransient<ILibroRepository, LibroRepository>();
                     services.AddTransient<IClienteRepository, ClienteRepository>();
@@ -57,6 +57,7 @@ namespace EjemploRepositorios
                     //services.AddTransient<ICopiaRepository, CopiaRepository>();
 
                     services.AddTransient<ABMAutor>();
+                    services.AddTransient<ABMEmpleado>();
                     services.AddTransient<ABMCliente>();
                     services.AddTransient<ABMLibro>();
                     services.AddTransient<ABMGenero>();
