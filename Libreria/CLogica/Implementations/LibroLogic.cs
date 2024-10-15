@@ -17,7 +17,7 @@ namespace CLogica.Implementations
         private ILibroRepository _libroRepository;
         private IAutorRepository _autorRepository;
         private IGeneroRepository _generoRepository;
-        private IEditorialRepository _editorialRepository;
+        //private IEditorialRepository _editorialRepository;
 
 
         public LibroLogic(ILibroRepository libroRepository)
@@ -47,18 +47,18 @@ namespace CLogica.Implementations
                 List<Autor> listaAutores = new List<Autor>();
                 foreach (int autor in listaIdAutores)
                 {
-                    Autor autorBuscar = _autorRepository.FindByCondition(a => a.IdAutor == autor).FirstOrDefault();
+                    Autor? autorBuscar = _autorRepository.FindByCondition(a => a.IdAutor == autor).FirstOrDefault();
                     listaAutores.Add(autorBuscar);
                 }
 
                 List<Genero> listaGeneros = new List<Genero>();
                 foreach (int genero in listaIdGeneros)
                 {
-                    Genero generoBuscar = _generoRepository.FindByCondition(g => g.Nombre == genero).FirstOrDefault();
+                    Genero? generoBuscar = _generoRepository.FindByCondition(g => g.IdGenero == genero).FirstOrDefault();
                     listaGeneros.Add(generoBuscar);
                 }
 
-                Editorial editorial = _editorialRepository.FindByCondition(g => g.Nombre == editorialBuscar).FirstOrDefault();
+                //Editorial editorial = _editorialRepository.FindByCondition(g => g.Nombre == editorialBuscar).FirstOrDefault();
 
                 Libro libroNuevo = new Libro()
                 {
@@ -68,7 +68,7 @@ namespace CLogica.Implementations
                     PrecioVenta = precioVenta,
                     Descripcion = descripcion,
                     Generos = listaGeneros,
-                    Editorial = editorial,
+                    //Editorial = editorial,
                     Autores = listaAutores
                 };
 

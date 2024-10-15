@@ -1,6 +1,7 @@
 using CEntidades.Entidades;
 using CLogica.Contracts;
 using CLogica.Implementations;
+using System.Linq;
 
 namespace EjemploRepositorios
 {
@@ -28,8 +29,6 @@ namespace EjemploRepositorios
                 clbAutorAlta.DataSource = _autorLogic.ObtenerAutores();
                 clbAutorAlta.DisplayMember = "Nombre";
                 clbAutorAlta.ValueMember = "IdAutor";
-
-
             }
         }
 
@@ -133,17 +132,10 @@ namespace EjemploRepositorios
             float precioVenta = float.Parse(tbPrecioVentaAlta.Text);
             string descripcion = tbDescripcionAlta.Text;
             string editorial = cbEditorialAlta.Text;
-            List<int> autor = new List<int>();
-            foreach (int autorSeleccionado in clbAutorAlta.CheckedItems)
-            {
-                autor.Add(autorSeleccionado);
-            }
-            List<int> genero = new List<int>();
-            foreach (int generoSeleccionado in clbGeneroAlta.CheckedItems)
-            {
-                autor.Add(generoSeleccionado);
-            }
-
+            List<int> autor = (from int autorSeleccionado in clbAutorAlta.CheckedItems
+                               select autorSeleccionado).ToList();
+            List<int> genero = (from int generoSeleccionado in clbGeneroAlta.CheckedItems
+                                select generoSeleccionado).ToList();
             try
             {
                 _libroLogic.AltaLibro(ISBN, titulo, fechaPublicacion, precioVenta, descripcion, editorial, autor, genero);
