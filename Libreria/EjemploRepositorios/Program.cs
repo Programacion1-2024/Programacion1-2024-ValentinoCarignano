@@ -29,7 +29,7 @@ namespace EjemploRepositorios
             var host = CreateHostBuilder().Build();
             _serviceProvider = host.Services;
 
-            Application.Run(_serviceProvider.GetRequiredService<ABMGenero>());
+            Application.Run(_serviceProvider.GetRequiredService<Inicio>());
         }
 
         static IHostBuilder CreateHostBuilder()
@@ -38,7 +38,7 @@ namespace EjemploRepositorios
                 .ConfigureServices((context, services) => {
 
                     services.AddTransient<IAutorLogic, AutorLogic>();
-                    //services.AddTransient<IEmpleadoLogic, EmpleadoLogic>();
+                    services.AddTransient<IEmpleadoLogic, EmpleadoLogic>();
                     services.AddTransient<IPersonaLogic, PersonaLogic>();
                     services.AddTransient<ILibroLogic, LibroLogic>();
                     services.AddTransient<IClienteLogic, ClienteLogic>();
@@ -48,7 +48,7 @@ namespace EjemploRepositorios
 
 
                     services.AddTransient<IAutorRepository, AutorRepository>();
-                    //services.AddTransient<IEmpleadoRepository, EmpleadoRepository>();
+                    services.AddTransient<IEmpleadoRepository, EmpleadoRepository>();
                     services.AddTransient<IPersonaRepository, PersonaRepository>();
                     services.AddTransient<ILibroRepository, LibroRepository>();
                     services.AddTransient<IClienteRepository, ClienteRepository>();
@@ -57,9 +57,11 @@ namespace EjemploRepositorios
                     //services.AddTransient<ICopiaRepository, CopiaRepository>();
 
                     services.AddTransient<ABMAutor>();
+                    services.AddTransient<ABMEmpleado>();
                     services.AddTransient<ABMCliente>();
                     services.AddTransient<ABMLibro>();
                     services.AddTransient<ABMGenero>();
+                    services.AddTransient<Inicio>();
 
                     services.AddDbContext<LibreriaContext>(options => options.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=LibreriaProg2024;Integrated Security=True;TrustServerCertificate=true"), ServiceLifetime.Transient);
                 });
