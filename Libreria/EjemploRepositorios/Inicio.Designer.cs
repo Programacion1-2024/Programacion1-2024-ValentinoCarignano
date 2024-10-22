@@ -114,6 +114,7 @@
             editorialesToolStripMenuItem.Name = "editorialesToolStripMenuItem";
             editorialesToolStripMenuItem.Size = new Size(180, 26);
             editorialesToolStripMenuItem.Text = "Editoriales";
+            editorialesToolStripMenuItem.Click += editorialesToolStripMenuItem_Click;
             // 
             // generosToolStripMenuItem
             // 

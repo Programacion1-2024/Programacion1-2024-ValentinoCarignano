@@ -43,7 +43,7 @@ namespace EjemploRepositorios
                     services.AddTransient<ILibroLogic, LibroLogic>();
                     services.AddTransient<IClienteLogic, ClienteLogic>();
                     services.AddTransient<IGeneroLogic, GeneroLogic>();
-                    //services.AddTransient<IEditorialLogic, EditorialLogic>();
+                    services.AddTransient<IEditorialLogic, EditorialLogic>();
                     //services.AddTransient<ICopiaLogic, CopiaLogic>();
 
 
@@ -53,7 +53,7 @@ namespace EjemploRepositorios
                     services.AddTransient<ILibroRepository, LibroRepository>();
                     services.AddTransient<IClienteRepository, ClienteRepository>();
                     services.AddTransient<IGeneroRepository, GeneroRepository>();
-                    //services.AddTransient<IEditorialRepository, EditorialRepository>();
+                    services.AddTransient<IEditorialRepository, EditorialRepository>();
                     //services.AddTransient<ICopiaRepository, CopiaRepository>();
 
                     services.AddTransient<ABMAutor>();
@@ -61,6 +61,7 @@ namespace EjemploRepositorios
                     services.AddTransient<ABMCliente>();
                     services.AddTransient<ABMLibro>();
                     services.AddTransient<ABMGenero>();
+                    services.AddTransient<ABMEditorial>();
                     services.AddTransient<Inicio>();
 
                     services.AddDbContext<LibreriaContext>(options => options.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=LibreriaProg2024;Integrated Security=True;TrustServerCertificate=true"), ServiceLifetime.Transient);

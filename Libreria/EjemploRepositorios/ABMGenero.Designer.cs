@@ -63,8 +63,8 @@
             tabModificacion.Controls.Add(panelModificacion);
             tabModificacion.Location = new Point(4, 24);
             tabModificacion.Name = "tabModificacion";
-            tabModificacion.Padding = new Padding(3, 3, 3, 3);
-            tabModificacion.Size = new Size(859, 179);
+            tabModificacion.Padding = new Padding(3);
+            tabModificacion.Size = new Size(625, 179);
             tabModificacion.TabIndex = 2;
             tabModificacion.Text = "Modificacion";
             tabModificacion.UseVisualStyleBackColor = true;
@@ -77,7 +77,7 @@
             panelModificacion.Controls.Add(tbDescripcionModificacion);
             panelModificacion.Controls.Add(btnActualizar);
             panelModificacion.Controls.Add(lbIdGeneroModificacion);
-            panelModificacion.Location = new Point(158, 58);
+            panelModificacion.Location = new Point(24, 56);
             panelModificacion.Name = "panelModificacion";
             panelModificacion.Size = new Size(576, 70);
             panelModificacion.TabIndex = 28;
@@ -130,8 +130,8 @@
             tabAlta.Controls.Add(panelAlta);
             tabAlta.Location = new Point(4, 24);
             tabAlta.Name = "tabAlta";
-            tabAlta.Padding = new Padding(3, 3, 3, 3);
-            tabAlta.Size = new Size(859, 179);
+            tabAlta.Padding = new Padding(3);
+            tabAlta.Size = new Size(625, 179);
             tabAlta.TabIndex = 1;
             tabAlta.Text = "Alta";
             tabAlta.UseVisualStyleBackColor = true;
@@ -142,7 +142,7 @@
             panelAlta.Controls.Add(tbDescripcionAlta);
             panelAlta.Controls.Add(lblNombreAlta);
             panelAlta.Controls.Add(btnGuardar);
-            panelAlta.Location = new Point(236, 71);
+            panelAlta.Location = new Point(115, 63);
             panelAlta.Name = "panelAlta";
             panelAlta.Size = new Size(410, 53);
             panelAlta.TabIndex = 12;
@@ -179,7 +179,7 @@
             tabListado.Controls.Add(dgvListadoGeneros);
             tabListado.Location = new Point(4, 24);
             tabListado.Name = "tabListado";
-            tabListado.Padding = new Padding(3, 3, 3, 3);
+            tabListado.Padding = new Padding(3);
             tabListado.Size = new Size(625, 179);
             tabListado.TabIndex = 0;
             tabListado.Text = "Listado";

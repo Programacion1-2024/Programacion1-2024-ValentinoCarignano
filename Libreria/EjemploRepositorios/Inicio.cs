@@ -20,8 +20,9 @@ namespace CPresentacion
         IEmpleadoLogic _empleadoLogic;
         ILibroLogic _libroLogic;
         IGeneroLogic _generoLogic;
-
-        public Inicio(IAutorLogic autorLogic, IClienteLogic clienteLogic, IEmpleadoLogic empleadoLogic, ILibroLogic libroLogic, IGeneroLogic generoLogic)
+        IEditorialLogic _editorialLogic;
+        
+        public Inicio(IAutorLogic autorLogic, IClienteLogic clienteLogic, IEmpleadoLogic empleadoLogic, ILibroLogic libroLogic, IGeneroLogic generoLogic, IEditorialLogic editorialLogic)
         {
             InitializeComponent();
 
@@ -30,6 +31,7 @@ namespace CPresentacion
             _empleadoLogic = empleadoLogic;
             _libroLogic = libroLogic;
             _generoLogic = generoLogic;
+            _editorialLogic = editorialLogic;
         }
 
         private void autorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -60,6 +62,12 @@ namespace CPresentacion
         {
             ABMGenero abmGenero = new ABMGenero(_generoLogic);
             abmGenero.Show();
+        }
+
+        private void editorialesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMEditorial abmEditorial = new ABMEditorial(_editorialLogic);
+            abmEditorial.Show();
         }
     }
 }
