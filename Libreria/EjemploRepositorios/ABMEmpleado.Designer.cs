@@ -155,7 +155,7 @@
             // 
             // panelAlta
             // 
-            panelAlta.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            panelAlta.Anchor = AnchorStyles.None;
             panelAlta.Controls.Add(dtpFechaIngreso);
             panelAlta.Controls.Add(label2);
             panelAlta.Controls.Add(label1);
@@ -175,14 +175,14 @@
             panelAlta.Controls.Add(btnGuardar);
             panelAlta.Location = new Point(150, 53);
             panelAlta.Name = "panelAlta";
-            panelAlta.Size = new Size(1213, 708);
+            panelAlta.Size = new Size(588, 361);
             panelAlta.TabIndex = 12;
             // 
             // dtpFechaIngreso
             // 
             dtpFechaIngreso.Location = new Point(377, 160);
             dtpFechaIngreso.Name = "dtpFechaIngreso";
-            dtpFechaIngreso.Size = new Size(200, 23);
+            dtpFechaIngreso.Size = new Size(158, 23);
             dtpFechaIngreso.TabIndex = 22;
             // 
             // label2
@@ -329,6 +329,7 @@
             // 
             // panelModificacion
             // 
+            panelModificacion.Anchor = AnchorStyles.None;
             panelModificacion.Controls.Add(tbCargoModificacion);
             panelModificacion.Controls.Add(tbIdEmpleadoModificacion);
             panelModificacion.Controls.Add(tbTelefonoModificacion);
@@ -346,14 +347,14 @@
             panelModificacion.Controls.Add(btnActualizar);
             panelModificacion.Controls.Add(lbIdAutorModificacion);
             panelModificacion.Controls.Add(lbSueldoModificacion);
-            panelModificacion.Location = new Point(136, 11);
+            panelModificacion.Location = new Point(139, 14);
             panelModificacion.Name = "panelModificacion";
             panelModificacion.Size = new Size(576, 396);
             panelModificacion.TabIndex = 28;
             // 
             // tbCargoModificacion
             // 
-            tbCargoModificacion.Location = new Point(111, 200);
+            tbCargoModificacion.Location = new Point(111, 195);
             tbCargoModificacion.Name = "tbCargoModificacion";
             tbCargoModificacion.Size = new Size(158, 23);
             tbCargoModificacion.TabIndex = 45;
@@ -426,7 +427,7 @@
             // 
             // tbSueldoModificacion
             // 
-            tbSueldoModificacion.Location = new Point(388, 147);
+            tbSueldoModificacion.Location = new Point(388, 145);
             tbSueldoModificacion.Name = "tbSueldoModificacion";
             tbSueldoModificacion.Size = new Size(158, 23);
             tbSueldoModificacion.TabIndex = 34;
@@ -451,7 +452,7 @@
             // lbBiografiaModificacion
             // 
             lbBiografiaModificacion.AutoSize = true;
-            lbBiografiaModificacion.Location = new Point(20, 202);
+            lbBiografiaModificacion.Location = new Point(20, 197);
             lbBiografiaModificacion.Name = "lbBiografiaModificacion";
             lbBiografiaModificacion.Size = new Size(39, 15);
             lbBiografiaModificacion.TabIndex = 42;

@@ -33,7 +33,7 @@ namespace CDatos.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=LAPTOP-KFU2M4R9;Initial Catalog=LibreriaProg2024;Integrated Security=True;TrustServerCertificate=true");
+                optionsBuilder.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=LibreriaProg2024;Integrated Security=True;TrustServerCertificate=true");
             }
         }
 

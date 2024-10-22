@@ -63,7 +63,7 @@ namespace EjemploRepositorios
                     services.AddTransient<ABMGenero>();
                     services.AddTransient<Inicio>();
 
-                    services.AddDbContext<LibreriaContext>(options => options.UseSqlServer("Data Source=LAPTOP-KFU2M4R9;Initial Catalog=LibreriaProg2024;Integrated Security=True;TrustServerCertificate=true"), ServiceLifetime.Transient);
+                    services.AddDbContext<LibreriaContext>(options => options.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=LibreriaProg2024;Integrated Security=True;TrustServerCertificate=true"), ServiceLifetime.Transient);
                 });
         }
     }

@@ -61,11 +61,10 @@
             // tabModificacion
             // 
             tabModificacion.Controls.Add(panelModificacion);
-            tabModificacion.Location = new Point(4, 29);
-            tabModificacion.Margin = new Padding(3, 4, 3, 4);
+            tabModificacion.Location = new Point(4, 24);
             tabModificacion.Name = "tabModificacion";
-            tabModificacion.Padding = new Padding(3, 4, 3, 4);
-            tabModificacion.Size = new Size(983, 243);
+            tabModificacion.Padding = new Padding(3, 3, 3, 3);
+            tabModificacion.Size = new Size(859, 179);
             tabModificacion.TabIndex = 2;
             tabModificacion.Text = "Modificacion";
             tabModificacion.UseVisualStyleBackColor = true;
@@ -78,44 +77,40 @@
             panelModificacion.Controls.Add(tbDescripcionModificacion);
             panelModificacion.Controls.Add(btnActualizar);
             panelModificacion.Controls.Add(lbIdGeneroModificacion);
-            panelModificacion.Location = new Point(180, 77);
-            panelModificacion.Margin = new Padding(3, 4, 3, 4);
+            panelModificacion.Location = new Point(158, 58);
             panelModificacion.Name = "panelModificacion";
-            panelModificacion.Size = new Size(658, 93);
+            panelModificacion.Size = new Size(576, 70);
             panelModificacion.TabIndex = 28;
             // 
             // tbIdGeneroModificacion
             // 
-            tbIdGeneroModificacion.Location = new Point(85, 28);
-            tbIdGeneroModificacion.Margin = new Padding(3, 4, 3, 4);
+            tbIdGeneroModificacion.Location = new Point(74, 21);
             tbIdGeneroModificacion.Name = "tbIdGeneroModificacion";
             tbIdGeneroModificacion.ReadOnly = true;
-            tbIdGeneroModificacion.Size = new Size(180, 27);
+            tbIdGeneroModificacion.Size = new Size(158, 23);
             tbIdGeneroModificacion.TabIndex = 28;
             // 
             // bvNombreModificacion
             // 
             bvNombreModificacion.AutoSize = true;
-            bvNombreModificacion.Location = new Point(279, 31);
+            bvNombreModificacion.Location = new Point(244, 23);
             bvNombreModificacion.Name = "bvNombreModificacion";
-            bvNombreModificacion.Size = new Size(87, 20);
+            bvNombreModificacion.Size = new Size(69, 15);
             bvNombreModificacion.TabIndex = 37;
             bvNombreModificacion.Text = "Descripcion";
             // 
             // tbDescripcionModificacion
             // 
-            tbDescripcionModificacion.Location = new Point(372, 28);
-            tbDescripcionModificacion.Margin = new Padding(3, 4, 3, 4);
+            tbDescripcionModificacion.Location = new Point(326, 21);
             tbDescripcionModificacion.Name = "tbDescripcionModificacion";
-            tbDescripcionModificacion.Size = new Size(180, 27);
+            tbDescripcionModificacion.Size = new Size(158, 23);
             tbDescripcionModificacion.TabIndex = 29;
             // 
             // btnActualizar
             // 
-            btnActualizar.Location = new Point(569, 26);
-            btnActualizar.Margin = new Padding(3, 4, 3, 4);
+            btnActualizar.Location = new Point(498, 20);
             btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(86, 31);
+            btnActualizar.Size = new Size(75, 23);
             btnActualizar.TabIndex = 36;
             btnActualizar.Text = "Actualizar";
             btnActualizar.UseVisualStyleBackColor = true;
@@ -124,20 +119,19 @@
             // lbIdGeneroModificacion
             // 
             lbIdGeneroModificacion.AutoSize = true;
-            lbIdGeneroModificacion.Location = new Point(3, 31);
+            lbIdGeneroModificacion.Location = new Point(3, 23);
             lbIdGeneroModificacion.Name = "lbIdGeneroModificacion";
-            lbIdGeneroModificacion.Size = new Size(76, 20);
+            lbIdGeneroModificacion.Size = new Size(59, 15);
             lbIdGeneroModificacion.TabIndex = 44;
             lbIdGeneroModificacion.Text = "ID Genero";
             // 
             // tabAlta
             // 
             tabAlta.Controls.Add(panelAlta);
-            tabAlta.Location = new Point(4, 29);
-            tabAlta.Margin = new Padding(3, 4, 3, 4);
+            tabAlta.Location = new Point(4, 24);
             tabAlta.Name = "tabAlta";
-            tabAlta.Padding = new Padding(3, 4, 3, 4);
-            tabAlta.Size = new Size(983, 243);
+            tabAlta.Padding = new Padding(3, 3, 3, 3);
+            tabAlta.Size = new Size(859, 179);
             tabAlta.TabIndex = 1;
             tabAlta.Text = "Alta";
             tabAlta.UseVisualStyleBackColor = true;
@@ -148,35 +142,32 @@
             panelAlta.Controls.Add(tbDescripcionAlta);
             panelAlta.Controls.Add(lblNombreAlta);
             panelAlta.Controls.Add(btnGuardar);
-            panelAlta.Location = new Point(270, 95);
-            panelAlta.Margin = new Padding(3, 4, 3, 4);
+            panelAlta.Location = new Point(236, 71);
             panelAlta.Name = "panelAlta";
-            panelAlta.Size = new Size(469, 71);
+            panelAlta.Size = new Size(410, 53);
             panelAlta.TabIndex = 12;
             // 
             // tbDescripcionAlta
             // 
-            tbDescripcionAlta.Location = new Point(114, 20);
-            tbDescripcionAlta.Margin = new Padding(3, 4, 3, 4);
+            tbDescripcionAlta.Location = new Point(100, 15);
             tbDescripcionAlta.Name = "tbDescripcionAlta";
-            tbDescripcionAlta.Size = new Size(180, 27);
+            tbDescripcionAlta.Size = new Size(158, 23);
             tbDescripcionAlta.TabIndex = 12;
             // 
             // lblNombreAlta
             // 
             lblNombreAlta.AutoSize = true;
-            lblNombreAlta.Location = new Point(21, 23);
+            lblNombreAlta.Location = new Point(18, 17);
             lblNombreAlta.Name = "lblNombreAlta";
-            lblNombreAlta.Size = new Size(87, 20);
+            lblNombreAlta.Size = new Size(69, 15);
             lblNombreAlta.TabIndex = 14;
             lblNombreAlta.Text = "Descripcion";
             // 
             // btnGuardar
             // 
-            btnGuardar.Location = new Point(320, 18);
-            btnGuardar.Margin = new Padding(3, 4, 3, 4);
+            btnGuardar.Location = new Point(280, 14);
             btnGuardar.Name = "btnGuardar";
-            btnGuardar.Size = new Size(86, 31);
+            btnGuardar.Size = new Size(75, 23);
             btnGuardar.TabIndex = 22;
             btnGuardar.Text = "Guardar";
             btnGuardar.UseVisualStyleBackColor = true;
@@ -186,11 +177,10 @@
             // 
             tabListado.Controls.Add(bnRecargarAlta);
             tabListado.Controls.Add(dgvListadoGeneros);
-            tabListado.Location = new Point(4, 29);
-            tabListado.Margin = new Padding(3, 4, 3, 4);
+            tabListado.Location = new Point(4, 24);
             tabListado.Name = "tabListado";
-            tabListado.Padding = new Padding(3, 4, 3, 4);
-            tabListado.Size = new Size(983, 243);
+            tabListado.Padding = new Padding(3, 3, 3, 3);
+            tabListado.Size = new Size(625, 179);
             tabListado.TabIndex = 0;
             tabListado.Text = "Listado";
             tabListado.UseVisualStyleBackColor = true;
@@ -198,9 +188,10 @@
             // bnRecargarAlta
             // 
             bnRecargarAlta.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            bnRecargarAlta.Location = new Point(881, 205);
+            bnRecargarAlta.Location = new Point(537, 154);
+            bnRecargarAlta.Margin = new Padding(3, 2, 3, 2);
             bnRecargarAlta.Name = "bnRecargarAlta";
-            bnRecargarAlta.Size = new Size(94, 32);
+            bnRecargarAlta.Size = new Size(82, 24);
             bnRecargarAlta.TabIndex = 1;
             bnRecargarAlta.Text = "Recargar";
             bnRecargarAlta.UseVisualStyleBackColor = true;
@@ -211,11 +202,10 @@
             dgvListadoGeneros.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dgvListadoGeneros.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvListadoGeneros.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListadoGeneros.Location = new Point(3, 4);
-            dgvListadoGeneros.Margin = new Padding(3, 4, 3, 4);
+            dgvListadoGeneros.Location = new Point(3, 3);
             dgvListadoGeneros.Name = "dgvListadoGeneros";
             dgvListadoGeneros.RowHeadersWidth = 51;
-            dgvListadoGeneros.Size = new Size(971, 195);
+            dgvListadoGeneros.Size = new Size(616, 146);
             dgvListadoGeneros.TabIndex = 0;
             dgvListadoGeneros.CellContentClick += dgvListadoAutores_CellClick;
             // 
@@ -225,22 +215,20 @@
             tabControlPrincipal.Controls.Add(tabListado);
             tabControlPrincipal.Controls.Add(tabAlta);
             tabControlPrincipal.Controls.Add(tabModificacion);
-            tabControlPrincipal.Location = new Point(14, 16);
-            tabControlPrincipal.Margin = new Padding(3, 4, 3, 4);
+            tabControlPrincipal.Location = new Point(12, 12);
             tabControlPrincipal.Name = "tabControlPrincipal";
             tabControlPrincipal.SelectedIndex = 0;
-            tabControlPrincipal.Size = new Size(991, 276);
+            tabControlPrincipal.Size = new Size(633, 207);
             tabControlPrincipal.TabIndex = 0;
             tabControlPrincipal.SelectedIndexChanged += tabControlPrincipal_SelectedIndexChanged;
             tabControlPrincipal.Selecting += tabControlPrincipal_Selecting;
             // 
             // ABMGenero
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1018, 308);
+            ClientSize = new Size(657, 231);
             Controls.Add(tabControlPrincipal);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "ABMGenero";
             Text = "Sistema de Gestion de Libreria";
             Load += ABMAutor_Load;

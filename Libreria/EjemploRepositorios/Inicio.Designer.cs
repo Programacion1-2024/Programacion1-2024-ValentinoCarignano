@@ -78,18 +78,21 @@
             autorToolStripMenuItem.Name = "autorToolStripMenuItem";
             autorToolStripMenuItem.Size = new Size(156, 26);
             autorToolStripMenuItem.Text = "Autores";
+            autorToolStripMenuItem.Click += autorToolStripMenuItem_Click;
             // 
             // clienteToolStripMenuItem
             // 
             clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
             clienteToolStripMenuItem.Size = new Size(156, 26);
             clienteToolStripMenuItem.Text = "Clientes";
+            clienteToolStripMenuItem.Click += clienteToolStripMenuItem_Click;
             // 
             // empleadoToolStripMenuItem
             // 
             empleadoToolStripMenuItem.Name = "empleadoToolStripMenuItem";
             empleadoToolStripMenuItem.Size = new Size(156, 26);
             empleadoToolStripMenuItem.Text = "Empleados";
+            empleadoToolStripMenuItem.Click += empleadoToolStripMenuItem_Click;
             // 
             // librosToolStripMenuItem
             // 
@@ -103,26 +106,28 @@
             // copiasToolStripMenuItem
             // 
             copiasToolStripMenuItem.Name = "copiasToolStripMenuItem";
-            copiasToolStripMenuItem.Size = new Size(152, 26);
+            copiasToolStripMenuItem.Size = new Size(180, 26);
             copiasToolStripMenuItem.Text = "Copias";
             // 
             // editorialesToolStripMenuItem
             // 
             editorialesToolStripMenuItem.Name = "editorialesToolStripMenuItem";
-            editorialesToolStripMenuItem.Size = new Size(152, 26);
+            editorialesToolStripMenuItem.Size = new Size(180, 26);
             editorialesToolStripMenuItem.Text = "Editoriales";
             // 
             // generosToolStripMenuItem
             // 
             generosToolStripMenuItem.Name = "generosToolStripMenuItem";
-            generosToolStripMenuItem.Size = new Size(152, 26);
+            generosToolStripMenuItem.Size = new Size(180, 26);
             generosToolStripMenuItem.Text = "Géneros";
+            generosToolStripMenuItem.Click += generosToolStripMenuItem_Click;
             // 
             // libroToolStripMenuItem
             // 
             libroToolStripMenuItem.Name = "libroToolStripMenuItem";
-            libroToolStripMenuItem.Size = new Size(152, 26);
+            libroToolStripMenuItem.Size = new Size(180, 26);
             libroToolStripMenuItem.Text = "Libros";
+            libroToolStripMenuItem.Click += libroToolStripMenuItem_Click;
             // 
             // transaccionesToolStripMenuItem
             // 
