@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\valen\\.nuget\\packages\\": {}
+    "C:\\Users\\Valentino\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\valen\\OneDrive\\Documents\\GitHub\\Programacion1-2024-ValentinoCarignano\\POO\\Libreria\\Front\\Front.csproj",
+      "projectUniqueName": "D:\\Documentos\\GitHub\\Programacion1-2024-ValentinoCarignano\\POO\\Libreria\\Front\\Front.csproj",
       "projectName": "Front",
-      "projectPath": "C:\\Users\\valen\\OneDrive\\Documents\\GitHub\\Programacion1-2024-ValentinoCarignano\\POO\\Libreria\\Front\\Front.csproj",
-      "packagesPath": "C:\\Users\\valen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\valen\\OneDrive\\Documents\\GitHub\\Programacion1-2024-ValentinoCarignano\\POO\\Libreria\\Front\\obj\\",
+      "projectPath": "D:\\Documentos\\GitHub\\Programacion1-2024-ValentinoCarignano\\POO\\Libreria\\Front\\Front.csproj",
+      "packagesPath": "C:\\Users\\Valentino\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\GitHub\\Programacion1-2024-ValentinoCarignano\\POO\\Libreria\\Front\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\valen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Valentino\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

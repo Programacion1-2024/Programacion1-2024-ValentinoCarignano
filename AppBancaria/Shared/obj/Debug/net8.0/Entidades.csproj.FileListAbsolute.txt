@@ -1,0 +1,15 @@
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\bin\Debug\net8.0\Entidades.deps.json
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\bin\Debug\net8.0\Entidades.runtimeconfig.json
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\bin\Debug\net8.0\Entidades.dll
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\bin\Debug\net8.0\Entidades.pdb
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\Entidades.csproj.AssemblyReference.cache
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\Entidades.AssemblyInfoInputs.cache
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\Entidades.AssemblyInfo.cs
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\Entidades.csproj.CoreCompileInputs.cache
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\Entidades.sourcelink.json
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\Entidades.dll
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\refint\Entidades.dll
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\Entidades.pdb
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\Entidades.genruntimeconfig.cache
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Shared\obj\Debug\net8.0\ref\Entidades.dll
