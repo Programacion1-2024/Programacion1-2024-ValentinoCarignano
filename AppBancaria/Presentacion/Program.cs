@@ -45,7 +45,7 @@ namespace Presentacion
 
                     services.AddTransient<Form1>();
 
-                    services.AddDbContext<AppDbContext>(options => options.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=AppBancaria;Integrated Security=True;TrustServerCertificate=true"), ServiceLifetime.Transient);
+                    services.AddDbContext<AppDbContext>(options => options.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=AppBancaria;Integrated Security=True;TrustServerCertificate=true"), ServiceLifetime.Scoped);
                 });
         }
     }

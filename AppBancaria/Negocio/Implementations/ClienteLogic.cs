@@ -38,7 +38,7 @@ namespace Negocio.Implementations
                 camposErroneos.Add("Apellido");
             }
 
-            if(camposErroneos.Count > 0)
+            if (camposErroneos.Count > 0)
             {
                 throw new ArgumentException("Los siguientes campos son inválidos: ", string.Join(", ", camposErroneos));
             }
@@ -52,6 +52,16 @@ namespace Negocio.Implementations
 
             _clienteRepository.Create(clienteNuevo);
             _clienteRepository.Save();
+        }
+
+        public List<dynamic> ObtenerClientes()
+        {
+            return _clienteRepository.FindAll().Select(a => new { a.DNI, a.Nombre, a.Apellido }).ToList<dynamic>();
+        }
+
+        public List<dynamic> ObtenerClientesDNI()
+        {
+            return _clienteRepository.FindAll().Select(a => a.DNI).ToList<dynamic>();
         }
     }
 }

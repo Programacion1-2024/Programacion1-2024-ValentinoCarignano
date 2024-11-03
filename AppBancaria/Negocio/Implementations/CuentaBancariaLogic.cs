@@ -21,18 +21,14 @@ namespace Negocio.Implementations
             _clienteRepository = clienteRepository;
         }
 
-        public void CrearCuentaBancaria(int numeroCuenta, double saldo, string tipoCuenta, Cliente cliente)
+        public void CrearCuentaBancaria(string numeroCuenta, string tipoCuenta, string cliente)
         {
             List<string> camposErroneos = new List<string>();
 
-            if(numeroCuenta <= 0)
+            int numeroCuentaParse;
+            if (!Int32.TryParse(numeroCuenta, out numeroCuentaParse) || numeroCuentaParse <= 0)
             {
                 camposErroneos.Add("Numero de Cuenta");
-            }
-
-            if (saldo != 0)
-            {
-                camposErroneos.Add("Saldo");
             }
 
             if (!(tipoCuenta == "Corriente" || tipoCuenta == "Ahorro"))
@@ -40,7 +36,7 @@ namespace Negocio.Implementations
                 camposErroneos.Add("Tipo de Cuenta");
             }
 
-            Cliente? clienteExistente = _clienteRepository.FindByCondition(c => c.ID == cliente.ID).FirstOrDefault();
+            Cliente? clienteExistente = _clienteRepository.FindByCondition(c => c.DNI == cliente).FirstOrDefault();
             if (clienteExistente == null)
             {
                 camposErroneos.Add("Cliente");
@@ -53,10 +49,10 @@ namespace Negocio.Implementations
 
             CuentaBancaria cuentaNueva = new CuentaBancaria()
             {
-                NumeroCuenta = numeroCuenta,
-                Saldo = saldo,
+                NumeroCuenta = numeroCuentaParse,
+                Saldo = 0,
                 TipoCuenta = tipoCuenta,
-                Cliente = cliente
+                Cliente = clienteExistente
             };
 
             _cuentaBancariaRepository.Create(cuentaNueva);
@@ -127,6 +123,11 @@ namespace Negocio.Implementations
                 _cuentaBancariaRepository.Update(cuentaExistenteTransfiere);
                 _cuentaBancariaRepository.Save();
             }
+        }
+
+        public List<dynamic> ObtenerCuentas()
+        {
+            return _cuentaBancariaRepository.FindAll().Select(a => new {a.NumeroCuenta, CLiente = a.Cliente.Nombre + " " + a.Cliente.Apellido, a.TipoCuenta, a.Saldo}).ToList<dynamic>();
         }
     }
 }

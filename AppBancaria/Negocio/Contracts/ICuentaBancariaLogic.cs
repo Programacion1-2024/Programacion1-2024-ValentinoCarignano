@@ -9,8 +9,9 @@ namespace Negocio.Contracts
 {
     public interface ICuentaBancariaLogic
     {
-        void CrearCuentaBancaria(int numeroCuenta, double saldo, string tipoCuenta, Cliente cliente);
+        void CrearCuentaBancaria(string numeroCuenta, string tipoCuenta, string cliente);
         void RealizarDeposito(int numeroCuentaBancaria, double saldo);
         void RealizarTransferencia(int numeroCuentaBancariaTransfiere, int numeroCuentaBancariaRecibe, double saldo);
+        List<dynamic> ObtenerCuentas();
     }
 }

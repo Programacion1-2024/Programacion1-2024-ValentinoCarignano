@@ -155,3 +155,5 @@ D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Presentac
 D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Presentacion\obj\Debug\net8.0-windows\Presentacion.pdb
 D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Presentacion\obj\Debug\net8.0-windows\Presentacion.genruntimeconfig.cache
 D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Presentacion\obj\Debug\net8.0-windows\ref\Presentacion.dll
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Presentacion\bin\Debug\net8.0-windows\Negocio.dll
+D:\Documentos\GitHub\Programacion1-2024-ValentinoCarignano\AppBancaria\Presentacion\bin\Debug\net8.0-windows\Negocio.pdb

@@ -13,7 +13,8 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.10",
-          "Microsoft.Extensions.Hosting": "8.0.1"
+          "Microsoft.Extensions.Hosting": "8.0.1",
+          "Negocio": "1.0.0"
         },
         "runtime": {
           "Presentacion.dll": {}
@@ -1217,6 +1218,17 @@
         "runtime": {
           "Entidades.dll": {}
         }
+      },
+      "Negocio/1.0.0": {
+        "dependencies": {
+          "Datos": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "8.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
+          "Microsoft.Extensions.Hosting": "8.0.1"
+        },
+        "runtime": {
+          "Negocio.dll": {}
+        }
       }
     }
   },
@@ -1925,6 +1937,11 @@
       "sha512": ""
     },
     "Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Negocio/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
